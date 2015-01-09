@@ -29,7 +29,7 @@ int main(int argc, char** argv) {
     float totpaid=slPrice+cmPrice;
     //Calculate
     cout<<fixed<<setprecision(2)<<showpoint;
-    cout<<"Sales Price =$"<<setw(8)<<slPrice<<endl;
+    cout<<"Sales Price = $"<<setw(8)<<slPrice<<endl;
     cout<<"Commission = $"<<setw(8)<<cmPrice<<endl;
     cout<<"Total Paid = $"<<setw(8)<<totpaid<<endl;
     //Exit stage right!
