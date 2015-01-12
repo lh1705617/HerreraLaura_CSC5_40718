@@ -17,6 +17,7 @@ using namespace std;
  */
 int main() 
 {
+ //Declare variables
  int num1 = 62;
  int num2 = 99;
  int total = num1+num2;
