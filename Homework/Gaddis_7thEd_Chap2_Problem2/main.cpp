@@ -7,10 +7,10 @@
  */
 //System Libraries
 #include <iostream>
-#include <iomanip>
 using namespace std;
-//Global constants
-//Function prototypes
+//User Libraries
+//Global Constants
+//Function Prototypes
 
 //Execution begins here
 int main(int argc, char** argv) {
@@ -23,7 +23,7 @@ int main(int argc, char** argv) {
     
     //Calculate percent of sales generated this year
     cout<<"The East Coast sales division will generate $"<<salesGen<<endl;
-    cout<<"if the company has $ 4.6 millions in sales this year."<<endl;
+    cout<<"If the company has $ 4.6 millions in sales this year."<<endl;
     return 0;
 }
 
