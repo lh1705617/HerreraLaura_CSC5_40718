@@ -18,11 +18,12 @@ int main(int argc, char** argv) {
 //Declare variables
     float meal = 44.50; //Amount of meal before tax
     float salesTax = .0675; //Sales tax percentage
+    float tip = .15; //Tip percentage
+    //Calculate amount of meal with tax, and tip
     float taxAmount = meal * salesTax; //Sales tax for meal
     float mealTotal = meal + taxAmount;//Amount of meal with tax
-    float tip = .15; //Tip percentage
-    float mealTip = mealTotal * tip;
-    float mealGrandTotal = mealTotal + mealTip;
+    float mealTip = mealTotal * tip; //Meal tip total
+    float mealGrandTotal = mealTotal + mealTip; //Grand total with tax and tip
     
     //Calculate totals of meal with tax and tip and grand total
     cout<<"Amount of meal = $ "<<std::setprecision(4)<<meal<<endl;

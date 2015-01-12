@@ -18,6 +18,7 @@ int main(int argc, char** argv) {
 //Declare variables
     float sales = 4.6e6; //Amount of sales this year
     float percentSales = .62; //Percent of sales generated]
+    //Calculate sales generated 
     int salesGen = sales * percentSales;
     
     //Calculate percent of sales generated this year
