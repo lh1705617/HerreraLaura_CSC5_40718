@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=Gaddis_7thEd_Chapter2_Problem15
+PROJECTNAME=Gaddis_7thEd_Chap2_Problem15
 
 # Active Configuration
 DEFAULTCONF=Debug

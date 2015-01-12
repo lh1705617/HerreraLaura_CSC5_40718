@@ -1,7 +1,7 @@
 /* 
  * File:   main.cpp
  * Author: Laura Herrera    
- * Purpose: Gaddis 7thEd Ch2 Problem 1
+ * Purpose: Homework assignment (Gaddis_7thEd_Ch2_Problem 1)
  *
  * Created on January 11, 2015, 2:18 AM
  */
@@ -9,7 +9,7 @@
 #include <iostream>
 
 using namespace std;
-
+//User Libraries
 //Global Constants
 //Function Prototypes
 /*
@@ -25,8 +25,7 @@ int main()
  //Calculate num1 + num2
  
  cout<<"62+99 = "<<total<<endl;
- //Exit stage left! 
-    
+ //Exit stage right! 
     return 0;
 }
 

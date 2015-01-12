@@ -1,7 +1,7 @@
 /* 
  * File:   main.cpp
  * Author: Laura Herrera
- * Purpose: Gaddis_7thEd_Chapter 2_Problem 16
+ * Purpose: Homework assignment (Gaddis_7thEd_Chapter 2_Problem16)
  *
  * Created on January 11, 2015, 9:09 PM
  */
@@ -21,7 +21,7 @@ int main(int argc, char** argv) {
     
     
 //Prompt user for character
-    cout<<"This program will output a triangle shaped pattern"<<endl;
+    cout<<"This program will output a diamond shaped pattern"<<endl;
     cout<<"with the character you input."<<endl;
     cout<<"Input a character"<<endl;
     cin>>x;

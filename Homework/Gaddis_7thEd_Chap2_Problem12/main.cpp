@@ -10,7 +10,6 @@
 using namespace std;
 
 //User Libraries
-
 //Global Constants
 const unsigned short CVFTACS=43560; //Percent Conversion
 

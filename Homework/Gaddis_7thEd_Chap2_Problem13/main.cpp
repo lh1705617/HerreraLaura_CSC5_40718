@@ -1,7 +1,7 @@
 /* 
  * File:   main.cpp
  * Author: Laura Herrera    
- * Purpose: Gaddis_7thEd_Chapter2_Problem13
+ * Purpose: Homework assignment (Gaddis_7thEd_Chapter2_Problem13)
  *
  * Created on January 11, 2015, 5:34 PM
  */
@@ -9,8 +9,9 @@
 #include <iostream>
 #include <iomanip>
 using namespace std;
-//Global constants
-//Function prototypes
+//User Libraries
+//Global Constants
+//Function Prototypes
 
 //Execution begins here
 int main(int argc, char** argv) {
@@ -18,7 +19,7 @@ int main(int argc, char** argv) {
 //Declare variables
     float cost = 12.67; //Cost of circuit board before markup
     float markup = .40; //Percentage of Markup
-    float markupAmount = cost*markup; //Markup of circuit board
+    float markupAmount = cost*markup; //Amount of 40% markup 
     float retailPrice = cost + markupAmount; //Retail price of circuit board
     
     //Calculate totals of circuit board with 40% markup

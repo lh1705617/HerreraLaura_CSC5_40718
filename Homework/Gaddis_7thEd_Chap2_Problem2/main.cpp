@@ -1,7 +1,7 @@
 /* 
  * File:   main.cpp
  * Author: Laura Herrera    
- * Purpose: Gaddis 7thEd Chapter2 Problem2
+ * Purpose: Homework assignment (Gaddis_7thEd_Chapter2_Problem2)
  *
  * Created on January 11, 2015, 5:34 PM
  */
@@ -23,7 +23,7 @@ int main(int argc, char** argv) {
     
     //Calculate percent of sales generated this year
     cout<<"The East Coast sales division will generate $"<<salesGen<<endl;
-    cout<<"If the company has $ 4.6 millions in sales this year."<<endl;
+    cout<<"If the company has $ 4.6 million in sales this year."<<endl;
     return 0;
 }
 

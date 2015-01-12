@@ -1,7 +1,7 @@
 /* 
  * File:   main.cpp
  * Author: Laura Herrera
- * Purpose: Gaddis_7thEd_Chapter 2_Problem 15
+ * Purpose: Homework assignment (Gaddis_7thEd_Chapter 2_Problem 15)
  *
  * Created on January 11, 2015, 8:38 PM
  */
@@ -18,7 +18,6 @@ using namespace std;
 int main(int argc, char** argv) {
 //Declare variables    
     char x; //character for triangle
-    
     
 //Prompt user for character
     cout<<"This program will output a triangle shaped pattern"<<endl;

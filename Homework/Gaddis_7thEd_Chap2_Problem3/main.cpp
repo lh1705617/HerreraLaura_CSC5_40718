@@ -1,7 +1,7 @@
 /* 
  * File:   main.cpp
  * Author: Laura Herrera    
- * Purpose: Gaddis 7thEd Chapter2 Problem3
+ * Purpose: Homework assignment (Gaddis_7thEd_Chapter2_Problem3)
  *
  * Created on January 11, 2015, 9:17 PM
  */
