@@ -1,13 +1,9 @@
 /* 
  * File:   main.cpp
- * Author: Laura
- *
+ * Author: Laura Herrera
  * Created on January 13, 2015, 11:20 PM
+ * Purpose: Homework assignment (Gaddis_7thEd_Chap3_Prob1)
  */
-
-#include <iostream>
-#include <cmath>
-using namespace std;
 
 //User Libraries
 
@@ -16,21 +12,20 @@ using namespace std;
 //Function Prototypes
 
 //Execution Begins Here!
-int main(int argc, char** argv) {
-    //Declare variables and initialize
-     float tank; 
-     float mildriv;//Size of the tank, miles per gallon
-    float mpg;
-    mpg= tank + mildriv; //Calculates MPG
-    
-    cout<<"How many gallons of gas does your car hold? "<<endl;
-    cin>>tank;
-    cout<<"How many miles can you drive on a single tank of gas?"<<endl;
-    cin>>mildriv;
-    cout<<"According to the information you entered, you get ";
-    cout<<mpg<<" miles per gallon."<<endl;
-    
+#include <iostream>
+using namespace std;
 
-    return 0;
-}
+int main()
+{
+   int tank;        // Number gallons tank holds
+   int midriv;       // Number of miles you can drive on one tank
+   float mpg;  // Average number of miles per gallon
 
+   cout << "How many gallons does your tank hold? ";
+   cin >> tank;
+   cout << "How many miles can you drive on one tank? ";
+   cin >> midriv;
+   mpg = static_cast<float>(midriv) / tank;
+   cout << "You can drive " << mpg << " miles on one gallon of gas.\n";
+   return 0;
+} 
