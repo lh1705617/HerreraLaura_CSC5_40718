@@ -12,29 +12,29 @@ using namespace std;
 
 int main()
 {
-    string month1, month2, month3;
-    float inch1, inch2, inch3;
-    float average;              // Average of all 3 test scores
+    string month1, month2, month3; //Months user enters
+    float inch1, inch2, inch3; //Inches of rainfall for three months
+    float average;          //Average amount of rainfall for 3 months
   
-    // Get the three test scores.
-    cout << "Pleas enter month: ";
+    // Prompt user to enter month and inches of rain.
+    cout << "Please enter month: ";
     cin >> month1;
-    cout << "Pleas enter the number of in Inches of rain that fell in:"<<month1<<endl;
+    cout << "Please enter the number of in inches of rain that fell in: "<<month1<<endl;
     cin >> inch1;
-    cout << "please enter next month:";
+    cout << "please enter next month: ";
     cin>> month2;
-    cout << "Pleas enter the number of in Inches of rain that fell in: "<<month2<<endl;
+    cout << "Please enter the number of in inches of rain that fell in: "<<month2<<endl;
     cin >> inch2;
-    cout << "please enter next month:";
+    cout << "please enter next month: ";
     cin>> month3;
-    cout << "Pleas enter the number of in Inches of rain that fell in: "<<month3<<endl;
+    cout << "Please enter the number of in inches of rain that fell in: "<<month3<<endl;
     cin >> inch3;
-    // Calculate the average of the scores.
+    // Calculate the average rainfall for 3 months.
     
     average = (inch1+inch2+inch3)/3.0;
     // Display the average.
     cout<<setprecision(2)<<fixed<<showpoint;
-    cout << "The average rainfall is: " << average << endl;
-    
+    cout << "The average rainfall for "<<month1<<", "<<month2<<", and "<<month3<<" is " << average <<" inches."<<endl;
+    //Exit 
     return 0;
 }
