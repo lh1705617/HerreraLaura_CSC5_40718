@@ -21,13 +21,15 @@ int main(int argc, char** argv) {
     //Declare variables
     
     float fahrenheit, celsius;
- 
+    //Prompt user for temperature in Celsius
     cout << "Enter the temperature in Celsius : ";
     cin >> celsius;
+    //Calculate Celsius to Fahrenheit
     fahrenheit = (celsius * 9.0) / 5.0 + 32;
-    cout<<setprecision(2)<<fixed<<showpoint;
+    cout<<setprecision(1)<<fixed<<showpoint;
+    //Output conversion result
     cout << "If the temperature in Celsius is    : " << celsius <<" degrees "<< endl;
-    cout << "Then the temperature in Fahrenheit is : " << fahrenheit <<" degrees"<<endl;
+    cout << "Then the temperature in Fahrenheit is : " << fahrenheit <<" degrees."<<endl;
    //Exit stage right!
     return 0;
 }

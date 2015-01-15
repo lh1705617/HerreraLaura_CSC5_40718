@@ -11,14 +11,15 @@ using namespace std;
 
 int main()
 {
-	string name;
+	//Declare variables
+        string name;
 	string age;
         string city;
         string college;
         string job;
         string anim;
         string petnm;
-
+        //Prompt user for information
 	cout << "Please enter your name: ";
 	getline(cin, name);
 	cout << "Enter your age: ";
@@ -33,12 +34,13 @@ int main()
 	getline(cin, anim);
         cout << "Enter a pets name: ";
 	getline(cin, petnm);
-        
+        //Output story]
 	cout << "There once was a person named " << name;
 	cout << " who lived in " << city << ". At the age of "<<age<<"," <<endl;
         cout <<name<<" went to college at "<<college<<". "<<name<<" graduated"<<endl;
         cout <<"and went to work as a "<<job<<" ."<<" Then, "<<name<<endl;
         cout << "adopted a (n) "<<anim<<" named "<<petnm<<"."<< " They both lived ";
         cout << "happily ever after."<<endl;
+        //Exit stage right!
 	return 0;
 }
