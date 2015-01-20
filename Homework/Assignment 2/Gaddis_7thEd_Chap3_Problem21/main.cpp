@@ -2,7 +2,7 @@
  * File:   main.cpp
  * Author: Laura Herrera
  * Created on January 14, 2015, 11:00AM
- * Purpose: Homework assignment (Gaddis_7thEd_Chap3_Prob1)
+ * Purpose: Homework assignment (Gaddis_7thEd_Chap3_Prob21)
  */
 
 //User Libraries

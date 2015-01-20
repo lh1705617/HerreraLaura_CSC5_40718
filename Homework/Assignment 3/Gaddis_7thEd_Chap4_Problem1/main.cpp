@@ -1,35 +1,35 @@
 /* 
  * File:   main.cpp
- * Author: Laura
- *
+ * Author: Laura Herrera
  * Created on January 17, 2015, 2:49 PM
- */
-
+ * Purpose: Homework Assignment (Gaddis_7thEd_Chapter4_Problem1)
+*/
+//System Library
 #include <iostream>
-#include <iomanip>
 using namespace std;
+//User Libraries
 
+//Global Constants
+
+//Function Prototypes
+
+//Execution Begins Here!
 int main()
 {
-   int num1;  // Hourly pay rate
-   int num2;
-   string greater,
-           less,// Minimum billable hours
-                
+   int num1, num2;
+  
 
-   // Get numbers from 
+   // Get numbers from user
    cout << "Please enter a number ";
    cin >> num1;
    cout << "Please enter a second number ";
    cin >> num2;
    // Determine which number is smaller/larger.
-   value = num1 < num2  ? less: greater;
-   
-   
-   cout << fixed << showpoint << setprecision(2)
-   cout <<"According to the values you entered " <<num1<<"is "<<value<<endl;
-   cout<<" than "<<num2<<endl;
-        
+   if (num1< num2)
+       cout<<num1<<" is less than "<<num2<<endl;
+   else
+       cout<<num1<<" is greater than "<<num2<<endl;
+   //exit program
    return 0;
 }
 

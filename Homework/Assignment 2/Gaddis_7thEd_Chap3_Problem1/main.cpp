@@ -4,7 +4,10 @@
  * Created on January 13, 2015, 11:20 PM
  * Purpose: Homework assignment (Gaddis_7thEd_Chap3_Prob1)
  */
-
+//System Libraries
+#include <iostream>
+#include <iomanip>
+using namespace std;
 //User Libraries
 
 //Global Constants
@@ -12,10 +15,6 @@
 //Function Prototypes
 
 //Execution Begins Here!
-#include <iostream>
-#include <iomanip>
-using namespace std;
-
 int main()
 {
    int tank;    // Number gallons tank holds

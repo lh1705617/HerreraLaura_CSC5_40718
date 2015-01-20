@@ -4,12 +4,15 @@
  * Created on January 14, 2015, 3:24 PM
  * Purpose: Homework Assignment (Gaddis_7thEd_Chap3_Problem3)
  */
-
+//System Libraries
 #include <iostream>
 #include <cmath>
 #include <iomanip>
 using namespace std;
-
+//User Libraries
+//Global Constants
+//Function Prototypes
+//Execution Begins Here!
 int main()
 {
     float test1, test2, test3;  // Scores of all 3 tests

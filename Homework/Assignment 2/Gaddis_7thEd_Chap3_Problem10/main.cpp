@@ -28,8 +28,8 @@ int main(int argc, char** argv) {
     fahrenheit = (celsius * 9.0) / 5.0 + 32;
     cout<<setprecision(1)<<fixed<<showpoint;
     //Output conversion result
-    cout << "If the temperature in Celsius is    : " << celsius <<" degrees "<< endl;
-    cout << "Then the temperature in Fahrenheit is : " << fahrenheit <<" degrees."<<endl;
+    cout << "If the temperature in Celsius is      : " << celsius <<" degrees "<< endl;
+    cout << "Then the temperature in Fahrenheit is : " << fahrenheit <<" degrees"<<endl;
    //Exit stage right!
     return 0;
 }

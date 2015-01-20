@@ -25,7 +25,7 @@ int main(int argc, char** argv) {
     cout<<"Input the number of dollars "<<endl;
     cout<<"You wish to convert."<<endl;
     cin>>dollars;
-    //Convert to all the currencies
+    //Convert dollars to Euros and Yen
  
     euros=erToDlr*dollars;
     yen=ynToDlr*dollars;
@@ -33,8 +33,8 @@ int main(int argc, char** argv) {
     cout.setf(ios::fixed);
     cout.precision(2);
   
-    cout<<dollars<<" =    "<<euros<<"(euros)"<<endl;
-    cout<<dollars<<" = "<<yen<<"(yen)"<<endl;
+    cout<<"$ "<<dollars<<" =    "<<euros<<"(euros)"<<endl;
+    cout<<"$ "<<dollars<<" = "<<yen<<"(yen)"<<endl;
     //Exit stage right!
     return 0;
 }

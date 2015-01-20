@@ -15,14 +15,19 @@ using namespace std;
 
 int main()
 {
-   int num=1,2,3,4,5,6,7,8,9,10;   // To hold the monthly charges
+   int num=1,2,3,4,5,6,7,8,9,10;   // value of roman numeral
 
    // Constants for membership rates
    const int 1= I,
              2= II,
              3=III,
              4=IV,
-             5= V;
+             5= V,
+             6=VI,
+             7=VII,
+             8=VIII,
+             9=IX,
+             10=X;
 
    // Constants for menu choices
    const int CHOICE_ONE = 1,
@@ -33,7 +38,7 @@ int main()
 
    // Display the menu and get a choice.
    cout << "\t\tHealth Club Membership Menu\n\n"
-        << "1. Standard Adult Membership\n"
+        << "1. One\n"
         << "2. Child Membership\n"
         << "3. Senior Citizen Membership\n"
         << "4. Quit the Program\n\n"
@@ -47,8 +52,8 @@ int main()
    switch (num)
    {
       case CHOICE_ONE:
-         cout << "For how many months? ";
-         cin > charges << endl;
+         cout << "The roman numeral of number 1 is ";
+         cin >> 1 ;
          break;
          
       case CHILD_CHOICE:

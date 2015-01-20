@@ -1,44 +1,55 @@
 /* 
  * File:   main.cpp
- * Author: Laura
- *
+ * Author: Laura Herrera
  * Created on January 17, 2015, 5:57 PM
- */
-
-//
-// This program uses an if/else if statement to assign a
-// letter grade (A, B, C, D, or F) to a numeric test score.
+ *Purpose: Homework Assignment (Gaddis_7thEd_Chap4_Problem10)
+*/
+//System Libraries
 #include <iostream>
+#include <iomanip>
 using namespace std;
+//User Libraries
 
+//Global Constants
+
+//Function Prototypes
+
+//Execution Begins Here!
 int main()
 {
-   // Constants for grade thresholds
-   const int A_SCORE = 100,
-             B_SCORE = 50,
-             C_SCORE = 20,
-             D_SCORE = 10
-             PurchP= 99;
-   float dis1=.50, dis2=.40, dis3=.30, dis4=.20;
-   int qty;  // To hold a numeric test score
-   float disP1=(qty*purchP)-(.50)
-   // Get the numeric test score.
-   cout << "Enter your numeric test score and I will\n"
-        << "tell you the letter grade you earned: ";
+   // Variablea
+   float    DISC_50 = 100,
+            DISC_40 = 50,
+            DISC_30 = 20,
+            DISC_20 = 10,
+            PURCH_P= 99.00;
+   float gross, grand1, dis1, grand2, dis2, dis3, grand3, dis4, grand4;
+   int qty;
+   //Prompt user to enter quantity of software packages
+   cout << "Enter the quantity of software packages you wish to purchase: "<<endl;
    cin >> qty;
-   
-   // Determine the letter grade.
-   if (qty> A_SCORE)
-      cout << "Your discountt is: "<<(qty*PurchP)*dis1);
-   count<<" and your total amount is "<<qty
-   else if (testScore >= B_SCORE)
-      cout << "Your grade is B.\n";
-   else if (testScore >= C_SCORE)
-      cout << "Your grade is C.\n";
-   else if (testScore >= D_SCORE)
-      cout << "Your grade is D.\n";
-   else
-      cout << "Your grade is F.\n";
-   
+   //calculate gross and discount price
+   gross= qty*PURCH_P;
+   dis1= (qty * PURCH_P) * .50;
+   grand1= gross-dis1;
+   dis2= (qty * PURCH_P) * .40;
+   grand2= gross-dis2;
+   dis3= (qty * PURCH_P) * .30;
+   grand3= gross-dis3;
+   dis4= (qty * PURCH_P) * .20;
+   grand4= gross-dis4;
+   cout<<fixed<<setprecision(2)<<showpoint;
+   if (qty >=DISC_50)
+        cout<<"If you purchase "<<qty<<" software packages your discount is $ "<<dis1<<" and your total price is $ "<<grand1<<endl;
+   else if  (qty >=DISC_40)
+        cout<<"If you purchase "<<qty<<" software packages your discount is $ "<<dis2<<" and your total price is $ "<<grand2<<endl;
+   else if (qty >=DISC_30)
+        cout<<"If you purchase "<<qty<<" software packages your discount is $ "<<dis3<<" and your total price is $ "<<grand3<<endl;
+   else if (qty >=DISC_20)
+        cout<<"If you purchase "<<qty<<" software packages your discount is $ "<<dis4<<" and your total price is $ "<<grand4<<endl;
+   else if (qty >0 )
+       cout<<"You do not qualify for a discount."<<endl;
+   else 
+       cout<<"you have entered an invalid quantity."<<endl;
    return 0;
 }

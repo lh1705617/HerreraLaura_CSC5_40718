@@ -5,11 +5,18 @@
  * Purpose: Homework Assignment (Gaddis_7thEd_Chap3_Problem4)
  */
 
+//System Libraries
 #include <iostream>
 #include <cmath>
 #include <iomanip>
 using namespace std;
+//User Libraries
 
+//Global Constants
+
+//Function Prototypes
+
+//Execution Begins Here!
 int main()
 {
     string month1, month2, month3; //Months user enters

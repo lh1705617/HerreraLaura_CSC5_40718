@@ -35,6 +35,6 @@ int main(int argc, char** argv) {
     weigNWid = (totWeig -wtPal)/wtWidg;
     //Output the results
     cout<<fixed<<setprecision(2)<<showpoint;
-    cout<<"Based on the weights you entered, you have "<<weigNWid<<" widgets on this pallet."<<endl;
+    cout<<"Based on the weights you entered, you should have "<<weigNWid<<" widgets on this pallet."<<endl;
     return 0;
 }
