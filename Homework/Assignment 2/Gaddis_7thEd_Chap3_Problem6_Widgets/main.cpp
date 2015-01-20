@@ -21,11 +21,11 @@ using namespace std;
 //Execution Begins Here!
 int main(int argc, char** argv) {
     //Declare variables
-    float wtWidg = 9.2;
-    float nWidg;
-    float wtPal;
-    float totWeig;
-    float weigNWid;
+    float wtWidg = 9.2;//Weight of one widget
+    float nWidg; //Number of widgets
+    float wtPal; //weight of pallet
+    float totWeig;//Total weight of pallet and widgets
+    float weigNWid; //Number of widgets on a pallet after pallet weight
     //Prompt user for pallet weights and total weight
     cout<<"Input weight of pallet: "<<endl;
     cin>>wtPal;
