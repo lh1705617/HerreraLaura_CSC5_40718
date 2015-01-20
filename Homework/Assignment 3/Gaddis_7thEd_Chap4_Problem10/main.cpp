@@ -40,13 +40,17 @@ int main()
    grand4= gross-dis4;
    cout<<fixed<<setprecision(2)<<showpoint;
    if (qty >=DISC_50)
-        cout<<"If you purchase "<<qty<<" software packages your discount is $ "<<dis1<<" and your total price is $ "<<grand1<<endl;
+        cout<<"If you purchase "<<qty<<" software packages your discount\n",
+        cout<<"will be $ "<<dis1<<" and your total price is $ "<<grand1<<endl;
    else if  (qty >=DISC_40)
-        cout<<"If you purchase "<<qty<<" software packages your discount is $ "<<dis2<<" and your total price is $ "<<grand2<<endl;
+        cout<<"If you purchase "<<qty<<" software packages your discount\n",
+        cout<<"will be $ "<<dis2<<" and your total price is $ "<<grand2<<endl;
    else if (qty >=DISC_30)
-        cout<<"If you purchase "<<qty<<" software packages your discount is $ "<<dis3<<" and your total price is $ "<<grand3<<endl;
+        cout<<"If you purchase "<<qty<<" software packages your discount\n",
+        cout<<"will be $ "<<dis3<<" and your total price is $ "<<grand3<<endl;
    else if (qty >=DISC_20)
-        cout<<"If you purchase "<<qty<<" software packages your discount is $ "<<dis4<<" and your total price is $ "<<grand4<<endl;
+        cout<<"If you purchase "<<qty<<" software packages your discount\n",
+        cout<<"will be $ "<<dis4<<" and your total price is $ "<<grand4<<endl;
    else if (qty >0 )
        cout<<"You do not qualify for a discount."<<endl;
    else 
