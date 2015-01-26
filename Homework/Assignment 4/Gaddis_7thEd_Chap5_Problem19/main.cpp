@@ -17,16 +17,16 @@ using namespace std;
 //execution Begins Here!
 int main(int argc, char** argv) {
 
-      float expense,   // Game counter
-            count=1,     // To hold a number of points
-            begBud,
-           total = 0; // Accumulator
+      float expense,   // Expenses for the month
+            count=1,   // To hold a number of expenses
+            begBud, // Begining monthly budget
+            total = 0; // Accumulator
         
-
+	//Prompt user to enter monthly budget
         cout<<"Please enter your budget amount for this month: "<<endl;
         cin>>begBud;
         cout<<"Enter your expenses, then enter -1 when finished."<<endl;
-        //
+        //prompt user to enter each expense
         cout << "Enter expense # " << count << ": ";
         cin >> expense;
 
@@ -37,9 +37,10 @@ int main(int argc, char** argv) {
       cout << "Enter expense # " << count << ": ";
       cin >> expense;
    }
+   cout<<fixed<<setprecision(2)<<showpoint;
    cout << "\nYour total expenses for this month are $ " << total << endl;
    if (total<=begBud)
-       cout<<"Congratulations! you are under budget.";
+       cout<<"Congratulations! you are under budget. You are $ "<<begBud-total<<" under budget\n";
    else
        cout<<"You are over budget by $"<<begBud-total<<"."<<endl;
    return 0;

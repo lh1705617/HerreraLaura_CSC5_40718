@@ -4,7 +4,7 @@
  * Created on January 23, 2015, 8:22 PM
  * Purpose: Homework Assignment (Gaddis_7thEd_Chap5_Problem11)
  */
-//System library
+//System libraries
 #include <iostream>
 #include <iomanip>
 
@@ -13,44 +13,45 @@ using namespace std;
 //function prototypes
 //global constants
 //Execution begins here
-int main(int argc, char** argv) {
-    int strOrg =2; //starting number of organisms
-    float popIncr=0; //Average daily population increase as percentage
-    int days ; //number of days they will multiply
-    float totPop,popSize;
-    //prompt user for inputs
+int main() {
+    //declare variables
+    float strOrg =0.0; //starting number of organisms
+    float popIncr= 0.0; //Average daily population increase as percentage
+    int days=0; //number of days they will multiply
+      //prompt user for inputs
     
     cout<<"This program will predict the size of a population of organisms"<<endl;
     cout<<"Please enter the number starting number of organisms: \n";
     cin>>strOrg;
     while (strOrg <2)
     { 
-        cout<<"Starting size of population must be 2 or larger.\n";
+        cout<<"Starting size of population must be 2 or larger. Please re-enter population size. \n";
         cin>>strOrg;
-        cout<<"Please enter the number starting number of organisms: \n";
+        
     }
     cout<<"Please enter the average daily population increase as a percentage (ex.03 for 3%): \n";
     cin>>popIncr;
     while (popIncr < 0)
     {
         cout<<"Please enter a positive number.\n";
+        cout<<"Please re-enter the average daily population increase as a percentage (ex.03 for 3%): \n";
         cin>>popIncr;
-        cout<<"Please enter the average daily population increase as a percentage (ex.03 for 3%): \n";
+        
     }
      cout<<"Please enter the number of days they will multiply: \n";
      cin>>days;
     while (days < 1)
     {
-         cout<<"please enter a positive number.\n";
+         cout<<"Number of days must be at least 1 .\n";
+         cout<<"Please re-enter the number of days they will multiply: \n";
          cin>>days;
-         cout<<"Please enter the number of days they will multiply: \n";
+     //Calculate population growth   
     }
-     for (int day=days; day<days; day++)
-         float totPop = popSize+(popIncr*popSize/100);
-         cout<<"After "<<days<<" days "<<endl;
-         cout<<"The population size of the organisms is "<<setw(2)<<totPop<<endl;
+     for (int count=0; count !=days; count++){
+         strOrg = strOrg + (strOrg * popIncr);
+         cout<<"On day "<<count + 1<<", The population size of the organisms was "<<setprecision(1)<<fixed<<strOrg<<endl;
         
-  
+     }
     
     return 0;
 }

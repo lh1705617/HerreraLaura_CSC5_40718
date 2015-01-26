@@ -1,31 +1,29 @@
 /* 
  * File:   main.cpp
  * Author: Laura Herrera
- *Created on January 20, 2015, 6:42 PM
- * Purpose: Homework Assignment 
+ * Created on January 20, 2015, 6:42 PM
+ * Purpose: Homework Assignment (Gaddis_7thEd_Chap5_Problem22)
  */
 
-//User Libraries
+//System Libraries
 #include <iostream>
 #include <cmath> 
-#include <iomanip> //
+#include <iomanip> 
 using namespace std;
 
-
-//Percent Conversion
+//User Libraries
 
 //Function Prototypes
 
 //Execution begins here
 
-   //Declare Variables
+
 int main(int argc, char** argv) {
 // declare variable
     int widHght;
-    //Prompt user for the input
-    cout<<"How large do you want the character square"<<endl;
+    //Prompt the user to enter a number
+    cout<<"How large do you want the character square (Please enter a number from 1-15)"<<endl;
     cin>>widHght;
-    //Utilize
     cout<<endl;
     for(int row=1;row<=widHght;row++){
         for(int col=1;col<=2*widHght;col++){
@@ -33,8 +31,8 @@ int main(int argc, char** argv) {
         }
         cout<<endl;
     }
-    cout<<endl;
-    //exit
+   
+    //Exit Stage Right
     return 0;
 }
 

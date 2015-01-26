@@ -15,34 +15,33 @@ using namespace std;
 
 //Global Constants
 
-//Function Prototypes
+//Function Prototype
 
-//Execution Begins Here!
+//Execution begins here!
 int main(int argc, char** argv) {
-    
     //Declare variables
-    unsigned int salary=1; //integer number of pennies
-    unsigned short nDays; //number of days to double your wallet
-    unsigned int totPay=salary;
-    //output the number of days to double your wallet
-    cout<<"How many days to double the contents of your salary"<<endl;
-    cout<<"Your Salary starts with $0.01"<<endl;
+    unsigned int salary=1;//Integer number of pennies
+    unsigned int totPay=salary;//Total pay after n days
+    unsigned short numDays;//Number of days to double
+    //Output the number of days to double your wallet
+    cout<<"How many days to double your salary?"<<endl;
+    cout<<"Your salary starts with $0.01"<<endl;
     cout<<"Maximum days allowed = 30"<<endl;
-    cin>>nDays;
-     cout<<fixed<<setprecision(2)<<showpoint;
-      cout<<"On the first day ";
-    cout<<"your salary =    $"<<setw(10)<<salary/100.0f<<endl;
-    //calculate the result
-    for (int day=2;day<=nDays;day++){
-        salary*=2;
-        totPay+=salary; cout<<"After   "<<day<<"   days ";
-    cout<<"your salary =     $"<<setw(12)<<salary/100.0f<<endl;
+    cin>>numDays;
+    cout<<fixed<<setprecision(2)<<showpoint;
+    cout<<"On the first day ";
+    cout<<" your salary =  $"<<setw(11)<<salary/100.0f<<endl;
+    //Calculate the result
+    for(int day=2;day<=numDays;day++){
+        //salary*=2;
+        salary<<=1;
+        totPay+=salary;
+        cout<<"After "<<setw(2)<<day<<" days ";
+        cout<<" your salary =     $"<<setw(11)<<salary/100.0f<<endl;
     }
-    //output results
-   
-    cout<<"After "<<nDays<<" days ";
-    cout<<"Your total pay = $"<<setw(11)<<totPay<<endl;
-        
+    //Output the result
+    cout<<"After "<<setw(2)<<numDays<<" days ";
+    cout<<" your total pay =  $"<<setw(11)<<totPay/100.0f<<endl;
+    //Exit Stage Right!
     return 0;
 }
-    
